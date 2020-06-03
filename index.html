@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
 
+    <!-- estilos de google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <!-- Carpeta de iconos -->
     <link rel="stylesheet" href="assets/iconos/css/all.min.css">
 
     <title>Alexander Moreno</title>
@@ -16,7 +19,7 @@
   <body>
 
   <!--Header---->
-  <nav id="header"class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <header id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
 
       <a class="navbar-brand brand-alex" href="#"><i class="icon-principal fas fa-user-astronaut"></i>Alexander Moreno</a>
@@ -24,7 +27,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Proyectos <span class="sr-only">(current)</span></a>
@@ -48,9 +51,9 @@
           </li>
         </ul>
         
-      </div>
+      </nav>
     </div>
-  </nav>
+  </header>
 
   <!--Carousel-->
     <!-- <main id="main">
@@ -121,50 +124,120 @@
     </section>
 
 
-    <section class="skills">
-      <div class="container">
-        <h2 class="skills-title">Skills</h2>
+    <section class="skills" id="#skills">
+      <div class="container-fluid">
+        <div class="container">
 
-        <div class="skills-grid">
+          <h2 class="group-title">Skills</h2>
   
-          <div class="skill">
-            <img src="assets/img/undraw_developer_activity_bv83.svg" alt="">
-            <div class="skill-text">
-              <h3 class="skill-title">Desarrollo web</h3>
-              <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
-            </div>
-          </div>
-         
-  
-          <div class="skill">
-            <div class="skill-text">
-              <h3 class="skill-title">Desing UI</h3>
-              <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
-            </div>
-            <img src="assets/img/undraw_design_tools_42tf.svg" alt="">
-          </div>
-  
-        
-          <div class="skill">
-            <img src="assets/img/undraw_Devices_e67q.svg" alt="">
-            <div class="skill-text">
-              <h3 class="skill-title">Diseno de interfaces</h3>
-              <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
+          <div class="skills-grid">
+    
+            <div class="skill">
+              <img src="assets/img/undraw_developer_activity_bv83.svg" alt="">
+              <div class="skill-text">
+                <h3 class="skill-title">Desarrollo web</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
+              </div>
             </div>
            
-          </div>
-  
-          <div class="skill">
-            <div class="skill-text">
-              <h3 class="skill-title">Desing UX</h3>
-              <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
+    
+            <div class="skill">
+              <div class="skill-text">
+                <h3 class="skill-title">Desing UI</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
+              </div>
+              <img src="assets/img/undraw_design_tools_42tf.svg" alt="">
             </div>
-            <img src="assets/img/ux.svg" alt="">
-          </div>
-  
+    
+          
+            <div class="skill">
+              <img src="assets/img/undraw_Devices_e67q.svg" alt="">
+              <div class="skill-text">
+                <h3 class="skill-title">Diseno de interfaces</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
+              </div>
+             
+            </div>
+    
+            <div class="skill">
+              <div class="skill-text">
+                <h3 class="skill-title">Desing UX</h3>
+                <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis numquam itaque ad laborum molestiae repudiandae consectetur, quibusdam aspernatur aut! Fuga, velit odio doloribus amet quod ipsum ab neque ducimus.</p>
+              </div>
+              <img src="assets/img/ux.svg" alt="">
+            </div>
+    
+        </div>
           
   
         </div>
+      </div>
+
+    </section>
+    
+    <section class="projects" id="#projects">
+      <div class="container">
+        <h2 class="group-title">Projects</h2>
+        <div class="projects__grid">
+          <div class="project-card">
+            <div class="project__name">
+              <p class="name-project">Nombre del projecto</p>
+              <p class="ver-mas"><span class="fas fa-angle-double-right"></span> Ver más</p> 
+            </div>
+            <img src="assets/img/project-img.png" alt="" class="project__img">
+            <div class="project__description">
+              <p class="project__description__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam iusto, quo impedit perspiciatis fuga dolor?
+              </p>
+              <div class="project__description__icon">a b c d</div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project__name">
+              <p class="name-project">Nombre del projecto</p>
+              <p class="ver-mas"><span class="fas fa-angle-double-right"></span> Ver más</p> 
+            </div>
+            <img src="assets/img/project-img.png" alt="" class="project__img">
+            <div class="project__description">
+              <p class="project__description__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam iusto, quo impedit perspiciatis fuga dolor?
+              </p>
+              <div class="project__description__icon">a b c d</div>
+            </div>
+          </div>
+
+
+          <div class="project-card">
+            <div class="project__name">
+              <p class="name-project">Nombre del projecto</p>
+              <p class="ver-mas"><span class="fas fa-angle-double-right"></span> Ver más</p> 
+            </div>
+            <img src="assets/img/project-img.png" alt="" class="project__img">
+            <div class="project__description">
+              <p class="project__description__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam iusto, quo impedit perspiciatis fuga dolor?
+              </p>
+              <div class="project__description__icon">a b c d</div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project__name">
+              <p class="name-project">Nombre del projecto</p>
+              <p class="ver-mas"><span class="fas fa-angle-double-right"></span> Ver más</p> 
+            </div>
+            <img src="assets/img/project-img.png" alt="" class="project__img">
+            <div class="project__description">
+              <p class="project__description__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam iusto, quo impedit perspiciatis fuga dolor?
+              </p>
+              <div class="project__description__icon">a b c d</div>
+            </div>
+          </div>
+        </div>
+
+        <a class="projects__button" href="#"> Ver todos los proyectos</a>
       </div>
 
     </section>
