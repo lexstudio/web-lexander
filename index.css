@@ -9,23 +9,21 @@ body {
 }
 
 section {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .container {
-  /* border: 1px solid white; */
   padding: 0;
 }
 
 .container-fluid {
-  border: 1px solid red;
-  background: white;
+  
   color: black;
 }
 
 .group-title {
   text-align: center;
-  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -149,9 +147,10 @@ section {
 
 /*---------------------------------*/
 .skills {
-  margin-top: 50px;
+  background: white;
+  /* margin-top: 50px; */
   color: white;
-  margin: 1px solid red;
+  /* margin: 1px solid red; */
 }
 
 .skills-grid {
